@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Abra Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Login box -->
+        <div class="form-box">
+            <!-- Form side -->
+            <form class="form">
+                <!-- user name -->
+                <div class="text-field">
+                    <input type="text" id="user-name" required>
+                    <label for="user-name">Username</label>
+                </div>
+                <!-- Password -->
+                <div class="text-field">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="forgot">Forgot Password?</div>
+                <!-- Login button -->
+                <input type="button" value="Login" id="button">
+                <!-- signup field -->
+                <div class="signup">Not a member?<a href="#">Signup</a></div>
+            </form>
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a href="https://www.abra-it.com/"><img src="./assets/logo.png" id="logo"></a>
+                <input type="button" value="Continue" id="continue">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
